@@ -1,0 +1,85 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  --color-primary: #423a6e;
+  --color-primary-fixed: #e6deff;
+  --color-primary-fixed-dim: #c9bffc;
+  --color-on-primary-fixed: #1c1246;
+  --color-on-primary-fixed-variant: #483f74;
+  --color-charcoal: #2C2C2C;
+  --color-primary-artisan: #5A5187;
+  --color-primary-container: #5a5187;
+  --color-on-primary-container: #d2c8ff;
+  --color-secondary: #6e5d13;
+  --color-secondary-artisan: #7D6B21;
+  --color-secondary-container: #fae28b;
+  --color-on-secondary-container: #75631a;
+  --color-secondary-fixed: #fae28b;
+  --color-on-secondary-fixed: #221b00;
+  --color-tertiary: #36453c;
+  --color-tertiary-artisan: #4A5950;
+  --color-tertiary-container: #D3E0D7;
+  --color-on-tertiary-container: #c3d4c8;
+  --color-tertiary-fixed: #d6e7db;
+  --color-on-tertiary-fixed: #111e17;
+  --color-surface-base: #FAF9F6;
+  --color-surface: #FAF9F6;
+  --color-surface-lowest: #FFFFFF;
+  --color-surface-bright: #faf9f6;
+  --color-surface-dim: #dbdad7;
+  --color-surface-low: #F7F3EF;
+  --color-surface-mid: #F5F5F3;
+  --color-surface-high: #EBE7E4;
+  --color-surface-variant: #e3e2e0;
+  --color-surface-container: #F5F5F3;
+  --color-surface-container-low: #f4f3f1;
+  --color-surface-container-lowest: #FFFFFF;
+  --color-surface-container-high: #e9e8e5;
+  --color-surface-container-highest: #e3e2e0;
+  --color-outline-variant: #D0D0D4;
+  --color-outline: #76767F;
+  --color-on-surface: #1a1c1a;
+  --color-on-surface-variant: #48454f;
+  --color-error: #BA1A1A;
+  --color-error-container: #ffdad6;
+  --color-on-error: #ffffff;
+}
+
+.material-symbols-outlined {
+  font-family: 'Material Symbols Outlined';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  display: inline-block;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+}
+
+@layer utilities {
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .perspective-1000 {
+    perspective: 1000px;
+  }
+}
+
+html, body {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  background-color: #FAF9F6;
+  color: #222222;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  max-width: 100vw;
+  overflow-x: hidden;
+}

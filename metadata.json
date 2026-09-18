@@ -1,0 +1,11 @@
+{
+  "name": "ParamSIH-demo",
+  "description": "Imported from GitHub: parthkumkar-bit/SIH-demo",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
